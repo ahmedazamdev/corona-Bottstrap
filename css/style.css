@@ -1,0 +1,247 @@
+/*
+  PSD Designer :
+    FirstColor : #191c23
+    SecondColor : #ed1d24
+ */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Cairo-Regular.woff") format("woff"),
+    url("../fonts/Cairo-Regular.ttf") format("truetype"),
+    url("../fonts/Cairo-Bold.woff") format("woff"),
+    url("../fonts/Cairo-Bold.ttf") format("truetype");
+}
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.conrona .header {
+  background-color: #191c23;
+}
+.conrona .header p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 6px 10px;
+  margin-bottom: 0;
+}
+.navigation {
+  background-color: #191c23;
+  color: #fff;
+  height: 620px;
+}
+.navigation p {
+  padding-left: 15px;
+  padding-top: 25px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+.navigation .list-group li {
+  background-color: #191c23;
+  color: #fff;
+  margin-right: 15px;
+  border-left: 3px solid #191c23;
+  border: none;
+}
+.navigation .list-group li svg {
+  color: #9d086a;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: #191c23;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.navigation .list-group li.active {
+  background-color: #0e0f14;
+  border: none;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-left: 3px solid #405cee;
+}
+.navigation .list-group li:hover {
+  background-color: #0e0f14;
+  border: none;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-left: 3px solid #405cee;
+  cursor: pointer;
+}
+.conrona .content {
+  background-color: black;
+  color: #fff;
+}
+.conrona .content .r1 {
+  background-color: #191c23;
+  margin-left: 21px;
+  margin-top: 22px;
+  width: 254px;
+  padding: 19px 21px 5px 14px;
+  border-radius: 5px;
+}
+.conrona .content .r1 h3 {
+  font-weight: bold;
+  float: left;
+}
+.conrona .content .r1 h3 span {
+  font-size: 13px;
+  color: #56f251;
+}
+.conrona .content .r1 p {
+  color: #797f8c;
+}
+.conrona .content .r1 svg {
+  margin-left: 64px;
+  background-color: #139d3f42;
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #0f0;
+}
+
+.conrona .content .r2 {
+  background-color: #191c23;
+  margin-left: 21px;
+  margin-top: 22px;
+  width: 254px;
+  padding: 19px 21px 5px 14px;
+  border-radius: 5px;
+}
+
+
+.conrona .content .r2 h3 {
+  font-weight: bold;
+  float: left;
+}
+.conrona .content .r2 h3 span {
+  font-size: 13px;
+  color: #ff0c00a3;
+}
+.conrona .content .r2 p {
+  color: #797f8c;
+}
+
+.conrona .content .r2 svg {
+  margin-left: 64px;
+  background-color: #f7000033;
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #ff2300;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+.conrona .content .a1 h3 {
+  font-weight: bold;
+  float: left;
+}
+
+.conrona .content .a1 {
+  background-color: #191c23;
+  margin-left: 21px;
+  margin-top: 22px;
+  width: 346px;
+  padding: 19px 21px 5px 14px;
+  border-radius: 5px;
+}
+
+.conrona .content .a1 p{
+color: #0f0;
+}
+
+.conrona .content .a1 svg{
+font-size: 39px;
+margin-left: 62px;
+}
+.conrona .content .a1.Purchase svg{
+  color: #09a60d;
+}
+.conrona .content .a1.Sales svg{
+  color: #e45350;
+}
+.conrona .content .a1.Revenue svg{
+  color: #4e98e3;
+}
+.conrona .content .main-table{
+  padding: 0 22px;
+  margin-top: 28px;
+}
+.conrona .content .table{
+  color: #ffff;
+  background-color: #191c23;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #959da6;
+}
+.conrona .content .table-hover > tbody > tr:hover {
+  --bs-table-accent-bg: var(--bs-table-hover-bg);
+  color: #bcc2c8;
+}
+.conrona .content .table-hover > tbody > tr{
+  border-top: 1px solid #333537;
+}
+.conrona .content .table > :not(caption) > * > * {
+  border-bottom-width: 0;
+}
+.conrona .content .table .img{
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+.conrona .content .table .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.conrona .content .table span{
+  margin-left: 7px;
+}
+.conrona .content .table a{
+  text-decoration: none;
+  padding: 0 15px;
+  border-radius: 4px;
+}
+.conrona .content .table a.aproved{
+color: #09a60d;
+border: 1px solid #09a60d;
+}
+.conrona .content .table a.pending{
+color: #ceb245;
+border: 1px solid #ceb245;
+}
+.conrona .content .table a.rejected{
+color: #e10000;
+border: 1px solid #e10000;
+}
+
+.aaaa{
+  accent-color: #b0b0b0;
+}
+/*
+.conrona .content .table input[type='checkbox']{
+  width: 14px !important;
+  height: 14px !important;
+  margin: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  background: red;
+}
+input[type='checkbox']:checked:after {
+  content: '✔';
+  color: white;
+}
+*/
